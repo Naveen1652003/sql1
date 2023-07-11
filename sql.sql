@@ -1,7 +1,7 @@
 create database bank;
 use bank;
 create table employees(emp_id int,emp_salary integer,emp_name varchar(30),emp_branchname varchar(30),emp_branchid int primary key, emp_age int
-check(age>18));
+check(emp_age>18));
 insert into employees values(1,1000,"ram","rasipuram","11",23),(2,2000,"naveen","chennai","12",34),(3,3000,"kumar","salem","13",26);
 
 use bank;
