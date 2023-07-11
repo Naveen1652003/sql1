@@ -8,3 +8,4 @@ use bank;
 create table customer(cus_address varchar(20),cus_accno varchar(30),cus_pinno int,cus_name varchar(20),cus_balan int,cus_pan integer,cus_branchid int ,cus_acctyp varchar(20));
 insert into customer values("xyz","234ty",321,"bala",100,91,13,"saving"),("xyo","235io",322,"helan",101,92,14,"saving"),("pqrs","236kl",323,"tamil",102,93,14,"deposit");
 select * from customer;
+select * from employees;
